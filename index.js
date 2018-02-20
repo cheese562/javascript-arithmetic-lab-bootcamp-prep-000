@@ -20,12 +20,14 @@ function divide(a, b)
 
 function inc(n)
 {
-  return n++
+  var number = n
+  return number++
 }
 
 function dec(n)
 {
-  return n--
+  var number = n
+  return number--
 }
 
 function makeInt(n)
