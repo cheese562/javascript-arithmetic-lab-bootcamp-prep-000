@@ -20,13 +20,15 @@ function divide(a, b)
 
 function inc(n)
 {
-  var number = n++
+  var number = n
+  number++
   return number
 }
 
 function dec(n)
 {
-  var number = n--
+  var number = n
+  number--
   return number
 }
 
